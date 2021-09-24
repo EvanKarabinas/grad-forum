@@ -1,0 +1,28 @@
+.comment-container {
+  margin-bottom: 12px;
+}
+
+.comment-user-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.comment-user-name {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.comment-content {
+  font-size: 14px;
+  padding-left: 25px;
+  margin-top: 0px;
+}
+
+.comment-created-at {
+  font-size: 11px;
+  color: gray;
+  margin-left: 3px;
+}

@@ -1,0 +1,43 @@
+.group-short-info-container {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #f7f7f7;
+
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.group-short-info-container:hover {
+  background-color: #f1f1f1;
+}
+.group-short-info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.my-groups-name {
+  color: #444444;
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.my-groups-description {
+  color: #888888;
+  font-size: 11px;
+  text-align: left;
+}
+
+.my-groups-arrow-icon {
+  width: 12px;
+  height: 12px;
+  opacity: 0.15;
+}

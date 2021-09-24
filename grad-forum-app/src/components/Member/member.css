@@ -1,0 +1,75 @@
+.member-container {
+  display: grid;
+  grid-template-rows: 2fr 0.5fr 0.5fr;
+  background-color: white;
+  -webkit-box-shadow: 5px 11px 24px -13px rgba(219, 217, 216, 0.432);
+  -moz-box-shadow: 5px 11px 24px -13px rgba(223, 221, 221, 0.363);
+  box-shadow: 5px 11px 24px -13px rgba(207, 207, 206, 0.5);
+
+  margin: 20px;
+  border-radius: 12px;
+}
+
+.member-up-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8f8;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.member-mid-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 5px 5px 0px 5px;
+  word-wrap: break-word;
+  max-width: 200px;
+  min-width: 200px;
+  text-align: center;
+}
+
+.member-bottom-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 10px;
+}
+
+.member-profile-photo {
+  width: 70px;
+  height: 70px;
+  border: solid 2px #eeeeee;
+  border-radius: 90px;
+  object-fit: cover;
+}
+
+.member-date {
+  color: #aaaaaa;
+  font-size: 9px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.member-name {
+  font-size: 13px;
+  color: #5e5d5d;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
+.member-email {
+  font-size: 11px;
+  color: #7e7e7e;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 4px;
+}

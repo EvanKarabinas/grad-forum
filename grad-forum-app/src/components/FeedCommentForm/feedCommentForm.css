@@ -1,0 +1,35 @@
+.comment-form-container {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+.comment-input {
+  margin: 0px;
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 10px;
+  height: 20px;
+  min-height: 0px;
+  font-size: 14px;
+  overflow: auto;
+}
+
+.comment-submit-button-inactive {
+  border: none;
+  background-color: white;
+  font-size: 13px;
+  font-weight: bold;
+  color: lightgray;
+  outline: none;
+}
+
+.comment-submit-button-active {
+  border: none;
+  background-color: white;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fc9275;
+  outline: none;
+  cursor: pointer;
+}

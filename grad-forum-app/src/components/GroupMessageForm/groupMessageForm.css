@@ -1,0 +1,43 @@
+.group-message-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color: white;
+
+  padding: 20px;
+}
+
+.group-message-input {
+  width: 70%;
+  height: 100%;
+  border: none;
+  border: 1px solid #eeeeee;
+  border-radius: 6px;
+  resize: none;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.send-message-group-button {
+  color: black;
+
+  margin-left: 20px;
+  cursor: pointer;
+  background-color: transparent;
+
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.send-message-group-icon {
+  width: 40px;
+  opacity: 0.5;
+}
+
+.send-message-group-icon:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}

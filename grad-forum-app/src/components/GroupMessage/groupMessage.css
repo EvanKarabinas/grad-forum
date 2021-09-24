@@ -1,0 +1,31 @@
+.group-message-container {
+  border-left: solid 2px rgb(238, 238, 238);
+  background-color: white;
+  padding: 10px;
+
+  margin-bottom: 10px;
+}
+
+.group-message-creator-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.group-message-content {
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.group-message-creator-name {
+  margin-left: 5px;
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.group-message-date {
+  font-size: 12px;
+  margin-left: 4px;
+}

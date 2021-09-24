@@ -1,0 +1,14 @@
+.feed-comments-form-container {
+  margin-bottom: 40px;
+  border-left: 2px solid #eeeeee;
+}
+.feed-comments-container {
+  padding-left: 10px;
+  max-height: 210px;
+  overflow: auto;
+  margin-bottom: 0px;
+}
+
+.feed-comments-form-container:hover {
+  border-left: 2px solid #c9c9c9;
+}

@@ -1,0 +1,153 @@
+.job-offer-container {
+  display: grid;
+  grid-template-columns: 5% 80% 15%;
+  background-color: white;
+  border-left: 2px solid;
+  border-color: #e8e8e8;
+  -webkit-box-shadow: 5px 11px 24px -13px rgba(219, 217, 216, 0.432);
+  -moz-box-shadow: 5px 11px 24px -13px rgba(223, 221, 221, 0.363);
+  box-shadow: 5px 11px 24px -13px rgba(207, 207, 206, 0.5);
+  margin-bottom: 10px;
+}
+/*.job-offer-container:hover {
+  border: solid 1px;
+  border-color: #f1c0b3;
+}*/
+.job-offer-left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  background-color: transparent;
+
+  min-width: 35px;
+  align-items: center;
+  font-size: 11px;
+}
+.job-offer-center-column {
+  display: flex;
+  flex-direction: column;
+
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.job-offer-right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #f8f8f8;
+  word-wrap: break-word;
+}
+
+.job-offer-title {
+  color: black;
+}
+
+.job-offer-date {
+  color: #aaaaaa;
+  font-size: 12px;
+}
+
+.job-offer-content {
+  white-space: pre-line;
+  font-size: 14px;
+  color: #6e6e6e;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.job-offer-creator {
+  font-size: 12px;
+  color: #aaaaaa;
+}
+.job-offer-creator-name {
+  font-size: 12px;
+  color: #888888;
+  font-weight: bold;
+}
+
+.job-offer-button-comment {
+  background-color: #f3f3f3;
+  border: none;
+  margin: 0px;
+
+  color: grey;
+  border-radius: 3px;
+  font-size: 12px;
+  outline: none;
+  /*cursor: pointer;*/
+  padding: 5px 10px 5px 10px;
+}
+
+/*.job-offer-button-comment:hover {
+  background-color: #dbdbdb;
+}*/
+
+.job-offer-reaction-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  background-color: #e8e8e8;
+  width: 100%;
+  /*cursor: pointer;*/
+  background-color: transparent;
+  border: transparent;
+  outline: none;
+}
+
+.job-offer-reaction-logo {
+  width: 17px;
+  opacity: 0.5;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/*.job-offer-reaction-logo:hover {
+  opacity: 1;
+
+  transition: 0.3s;
+}*/
+.job-offer-type-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.job-offer-choice-offer {
+  display: flex;
+  border: transparent;
+  border-radius: 4px;
+  padding: 5px;
+
+  justify-content: center;
+  background-color: #aedfae;
+  /*background-color: #beabcf;*/
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+
+  margin: 0px 0px 10px 0px;
+}
+
+.job-offer-choice-demand {
+  display: flex;
+  border: transparent;
+  border-radius: 4px;
+  padding: 5px 17px 5px 17px;
+
+  justify-content: center;
+
+  background-color: #beabcf;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+}

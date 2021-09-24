@@ -1,0 +1,9 @@
+.bare-button {
+  background-color: transparent;
+  border: none;
+  color: #707070;
+  cursor: pointer;
+  font-size: 14px;
+
+  margin-left: 10px;
+}

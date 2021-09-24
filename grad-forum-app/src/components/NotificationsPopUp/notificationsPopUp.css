@@ -1,0 +1,24 @@
+.notifications-pop-up-container {
+  border-radius: 6px;
+  font-size: 13px;
+  z-index: 2;
+  position: fixed;
+  max-width: 300px;
+  min-width: 300px;
+  max-height: 480px;
+  background-color: #f8f8f8;
+
+  right: 30px;
+  padding: 15px;
+  overflow-y: auto;
+  -webkit-box-shadow: 5px 11px 24px -13px rgba(219, 217, 216, 0.575);
+  -moz-box-shadow: 5px 11px 24px -13px rgba(223, 221, 221, 0.562);
+  box-shadow: 5px 11px 24px -13px rgba(207, 207, 206, 0.671);
+}
+
+.no-notifications-msg {
+  width: 100%;
+  text-align: center;
+  font-size: 12;
+  color: gray;
+}

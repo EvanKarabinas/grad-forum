@@ -1,0 +1,30 @@
+.bar-menu-container {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-end;
+}
+.bar-menu-image {
+  height: 20px;
+}
+
+.bar-menu-button {
+  background-color: white;
+  border: none;
+  margin-right: 30px;
+  opacity: 1;
+  outline: none;
+}
+
+.bar-menu-button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .bar-menu-image {
+    height: 13px;
+  }
+  .bar-menu-button {
+    margin: 0px;
+  }
+}

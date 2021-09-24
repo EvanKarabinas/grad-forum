@@ -1,0 +1,171 @@
+.job-offer-feed-form-container {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  border: solid 1px;
+
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border-color: #fa9677;
+  -webkit-box-shadow: 5px 11px 24px -13px rgba(230, 129, 74, 1);
+  -moz-box-shadow: 5px 11px 24px -13px rgba(230, 129, 74, 1);
+  box-shadow: 5px 11px 24px -13px rgba(230, 129, 74, 1);
+}
+.job-offer-feed-form-center-column {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px 20px 10px;
+}
+.job-offer-feed-form-title {
+  font-size: 21px;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+
+.job-offer-feed-form-input {
+  border: none;
+
+  margin-left: 10px;
+  background-color: white;
+
+  border-bottom: solid 1px;
+  border-color: #cecece;
+  padding: 5px;
+  margin: 5px;
+  width: 90%;
+  outline: none;
+  resize: vertical;
+  max-height: 200px;
+}
+
+.job-offer-feed-form-label {
+  font-size: 13px;
+  color: #5c5c5c;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.job-offer-feed-form-submit {
+  background-image: linear-gradient(to bottom, #ff9966, #ff715e);
+  width: 100%;
+  height: auto;
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+}
+
+.job-offer-feed-form-submit:hover {
+  opacity: 0.7;
+}
+
+.job-offer-send-icon {
+  width: 50px;
+}
+feed-form-container {
+  display: grid;
+  grid-template-columns: 5% 80% 15%;
+  border: solid 1px;
+
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border-color: #fa9677;
+  -webkit-box-shadow: 5px 11px 24px -13px rgba(230, 129, 74, 1);
+  -moz-box-shadow: 5px 11px 24px -13px rgba(230, 129, 74, 1);
+  box-shadow: 5px 11px 24px -13px rgba(230, 129, 74, 1);
+}
+.job-offer-feed-form-center-column {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px 20px 10px;
+}
+.job-offer-feed-form-title {
+  font-size: 21px;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+
+.feed-form-input {
+  border: none;
+
+  margin-left: 10px;
+  background-color: white;
+
+  border-bottom: solid 1px;
+  border-color: #cecece;
+  padding: 5px;
+  margin: 5px;
+  width: 90%;
+  outline: none;
+}
+
+.feed-form-label {
+  font-size: 13px;
+  color: #5c5c5c;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.feed-form-submit {
+  background-image: linear-gradient(to bottom, #ff9966, #ff715e);
+  width: 100%;
+  height: auto;
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+}
+
+.feed-form-submit:hover {
+  opacity: 0.7;
+}
+
+.send-icon {
+  width: 50px;
+}
+.job-offer-buttons-choice-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.job-offer-buttons-choice {
+  margin: 5px;
+  border: solid 1px #cecece;
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+
+  font-size: 12px;
+  font-weight: 600;
+  color: #757575;
+  cursor: pointer;
+  outline: none;
+}
+
+.job-offer-buttons-choice-active {
+  margin: 5px;
+  border: solid 2px #fca275d8;
+  -webkit-box-shadow: 5px 11px 24px -13px rgba(230, 129, 74, 1);
+  -moz-box-shadow: 5px 11px 24px -13px rgba(230, 129, 74, 1);
+  box-shadow: 5px 11px 24px -13px #e6814a;
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+
+  font-size: 12px;
+  font-weight: 600;
+  color: #757575;
+
+  outline: none;
+}
+.job-offer-buttons-choice:hover {
+  opacity: 0.7;
+}

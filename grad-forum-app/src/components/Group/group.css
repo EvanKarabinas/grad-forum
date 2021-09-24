@@ -1,0 +1,100 @@
+.group-container {
+  display: grid;
+  grid-template-columns: 5% 80% 15%;
+  background-color: white;
+  border: solid 1px;
+  /* border-color: #e6e6e6; */
+  border: none;
+  background-color: #f8f8f8;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 11px 24px -13px rgba(219, 217, 216, 0.432);
+  -moz-box-shadow: 5px 11px 24px -13px rgba(223, 221, 221, 0.363);
+  box-shadow: 5px 11px 24px -13px rgba(207, 207, 206, 0.5);
+}
+
+.group-container:hover {
+  background-color: #f1f1f1;
+}
+
+.group-center-column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.group-right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  /* background-color: #f8f8f8; */
+  background-color: white;
+  word-wrap: break-word;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.group-name {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+}
+
+.group-description {
+  font-size: 16px;
+  color: #aaaaaa;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 10px;
+  padding-right: 10px;
+  max-height: 100px;
+  overflow-y: scroll;
+}
+
+.group-description {
+  /* This is the magic bit for Firefox */
+  scrollbar-width: none;
+}
+
+.group-description::-webkit-scrollbar {
+  display: none;
+}
+
+.group-date {
+  color: #aaaaaa;
+  font-size: 12px;
+}
+
+.group-creator {
+  font-size: 12px;
+  color: #aaaaaa;
+}
+.group-creator-name {
+  font-size: 12px;
+  color: #888888;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .group-container {
+    grid-template-columns: 5% 60% 35%;
+  }
+  .group-name {
+    font-size: 17px;
+  }
+  .group-center-column {
+    word-wrap: break-word;
+  }
+  .group-description {
+    font-size: 14px;
+  }
+  .group-date {
+    padding: 0px;
+    margin: 0px;
+  }
+}

@@ -1,0 +1,13 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr;
+  margin-top: 0px;
+  grid-column-gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
