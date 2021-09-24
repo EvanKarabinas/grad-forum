@@ -9,3 +9,5 @@ Basic CRUD operations, user sessions, real-time notifications system using socke
 
 [grad-forum-app](/grad-forum-app) : Social media web app implemented with React. Simple menus, user feed, chat, notifications.  
 **Technologies**: react, socket.io
+
+![Alt Text](/preview.gif)
